@@ -4,6 +4,50 @@
   
     
     <entry>
+      <title>字符串常用方法</title>
+      <link href="/2025/04/05/zifuchuan/"/>
+      <url>/2025/04/05/zifuchuan/</url>
+      
+        <content type="html"><![CDATA[<ul><li>charAt(index)：获取字符串索引为index的字符</li><li>substring(index1, index2)：从索引index1(包含)到索引index2(不包含)截取字符串indexOf(s)：获取字符s的索引</li></ul><p><code>https://blog.csdn.net/weixin_40052298/article/details/121868965?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522169555251216800182147809%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&amp;request_id=169555251216800182147809&amp;biz_id=0&amp;utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_click~default-2-121868965-null-null.142^v94^insert_down1&amp;utm_term=java%20substring%E6%96%B9%E6%B3%95&amp;spm=1018.2226.3001.4187</code></p><ul><li>contains(s)：字符串是否包含字符s</li><li>split(char)：按字符char对字符串进行切分</li></ul><p><code>https://blog.csdn.net/qq_26893841/article/details/127919230?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522169555212616800188571527%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&amp;request_id=169555212616800188571527&amp;biz_id=0&amp;utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-2-127919230-null-null.142^v94^insert_down1&amp;utm_term=javasplit&amp;spm=1018.2226.3001.4187</code></p><ul><li>trim()：去除字符串两端的空白字符</li><li>Arrays.toString(sz)：将字符数组sz转成字符串</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 算法 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>JDBC</title>
+      <link href="/2025/04/05/studynote1/"/>
+      <url>/2025/04/05/studynote1/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Java-数据库连接（Java-Database-Connectivity）"><a href="#Java-数据库连接（Java-Database-Connectivity）" class="headerlink" title="Java 数据库连接（Java Database Connectivity）"></a>Java 数据库连接（Java Database Connectivity）</h1><h2 id="一、JDBC-概述"><a href="#一、JDBC-概述" class="headerlink" title="一、JDBC 概述"></a>一、JDBC 概述</h2><p>JDBC 是使用 Java 语言操作关系型数据库的一套 API。</p><p><img src="/image/studynote1/1.png" alt="图片描述"></p><p><img src="/image/studynote1/2.png" alt="图片描述"></p><h2 id="二、JDBC-API-详解"><a href="#二、JDBC-API-详解" class="headerlink" title="二、JDBC API 详解"></a>二、JDBC API 详解</h2><h3 id="1-DriverManager"><a href="#1-DriverManager" class="headerlink" title="1. DriverManager"></a>1. DriverManager</h3><p><img src="/image/studynote1/4.png" alt="图片描述"></p><p><img src="/image/studynote1/5.png" alt="图片描述"></p><p><img src="/image/studynote1/6.png" alt="图片描述"></p><h3 id="2-Connection"><a href="#2-Connection" class="headerlink" title="2. Connection"></a>2. Connection</h3><p><img src="/image/studynote1/7.png" alt="图片描述"></p><p><img src="/image/studynote1/8.png" alt="图片描述"></p><p><img src="/image/studynote1/9.png" alt="图片描述"></p><h3 id="3-Statement"><a href="#3-Statement" class="headerlink" title="3. Statement"></a>3. Statement</h3><p><img src="/image/studynote1/10.png" alt="图片描述"></p><p><img src="/image/studynote1/11.png" alt="图片描述"></p><h3 id="4-ResultSet"><a href="#4-ResultSet" class="headerlink" title="4. ResultSet"></a>4. ResultSet</h3><p><img src="/image/studynote1/12.png" alt="图片描述"></p><p><img src="/image/studynote1/13.png" alt="图片描述"></p><h3 id="5-PreparedStatement"><a href="#5-PreparedStatement" class="headerlink" title="5. PreparedStatement"></a>5. PreparedStatement</h3><p>引入 SQL 注入，了解如何解决该问题。</p><p><img src="/image/studynote1/14.png" alt="图片描述"></p><p><img src="/image/studynote1/15.png" alt="图片描述"></p><p><img src="/image/studynote1/16.png" alt="图片描述"></p><p><img src="/image/studynote1/17.png" alt="图片描述"></p><h4 id="具体原理"><a href="#具体原理" class="headerlink" title="具体原理"></a>具体原理</h4><p><img src="/image/studynote1/18.png" alt="图片描述"></p><p><img src="/image/studynote1/19.png" alt="图片描述"></p><h2 id="三、数据库连接池"><a href="#三、数据库连接池" class="headerlink" title="三、数据库连接池"></a>三、数据库连接池</h2><p><img src="/image/studynote1/20.png" alt="图片描述"></p><p><img src="/image/studynote1/21.png" alt="图片描述"></p><p>德鲁伊数据库连接池。</p><p><img src="/image/studynote1/22.png" alt="图片描述"></p><p><img src="/image/studynote1/23.png" alt="图片描述"></p><p><img src="/image/studynote1/24.png" alt="图片描述"></p><h3 id="IDEA-中的快捷键"><a href="#IDEA-中的快捷键" class="headerlink" title="IDEA 中的快捷键"></a>IDEA 中的快捷键</h3><ul><li>替换快捷键：<code>Ctrl + Shift + R</code></li><li>编辑选中的所有：<code>Alt</code> 按住 + 鼠标左键</li><li>代码格式整理快捷键：<code>Ctrl + Alt + L</code></li></ul><h3 id="JDBC-总体模板"><a href="#JDBC-总体模板" class="headerlink" title="JDBC 总体模板"></a>JDBC 总体模板</h3><p>标红为变动的部分。</p><p><img src="/image/studynote1/25.png" alt="图片描述"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 笔记 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>竞赛和证书</title>
       <link href="/2025/04/05/competition/"/>
       <url>/2025/04/05/competition/</url>
