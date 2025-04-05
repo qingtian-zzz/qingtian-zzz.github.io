@@ -1,0 +1,317 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>双体系后端学习路线 | 晴天zzz的个人博客</title><meta name="author" content="QingTian-zzz"><meta name="copyright" content="QingTian-zzz"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="双体系后端学习路线，在这看哦">
+<meta property="og:type" content="article">
+<meta property="og:title" content="双体系后端学习路线">
+<meta property="og:url" content="https://qingtian-zzz.github.io/2025/04/05/houduan%20-%20%E5%89%AF%E6%9C%AC/index.html">
+<meta property="og:site_name" content="晴天zzz的个人博客">
+<meta property="og:description" content="双体系后端学习路线，在这看哦">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://pic1.imgdb.cn/item/67ed35a70ba3d5a1d7eb1b09.jpg">
+<meta property="article:published_time" content="2025-04-05T01:35:37.175Z">
+<meta property="article:modified_time" content="2025-04-05T02:25:58.160Z">
+<meta property="article:author" content="QingTian-zzz">
+<meta property="article:tag" content="后端">
+<meta property="article:tag" content="学习路线">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://pic1.imgdb.cn/item/67ed35a70ba3d5a1d7eb1b09.jpg"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "双体系后端学习路线",
+  "url": "https://qingtian-zzz.github.io/2025/04/05/houduan%20-%20%E5%89%AF%E6%9C%AC/",
+  "image": "https://pic1.imgdb.cn/item/67ed35a70ba3d5a1d7eb1b09.jpg",
+  "datePublished": "2025-04-05T01:35:37.175Z",
+  "dateModified": "2025-04-05T02:25:58.160Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "QingTian-zzz",
+      "url": "https://qingtian-zzz.github.io/"
+    }
+  ]
+}</script><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://qingtian-zzz.github.io/2025/04/05/houduan%20-%20%E5%89%AF%E6%9C%AC/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: true,
+    post: true
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '双体系后端学习路线',
+  isHighlightShrink: false,
+  isToc: true,
+  pageType: 'post'
+}</script><link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'"><link rel="stylesheet" href="/css/progress_bar.css" media="defer" onload="this.media='all'"><link rel="stylesheet" href="/css/universe.css"><link rel="stylesheet" href="/css/cat.css"><link rel="stylesheet" href="//at.alicdn.com/t/c/font_4881474_s97wwzxj22a.css" media="defer" onload="this.media='all'"><div id="myscoll"></div><!-- hexo injector head_end start --><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-categories-card@1.0.0/lib/categorybar.css"><!-- hexo injector head_end end --><meta name="generator" content="Hexo 7.3.0">
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+</head><body><div id="web_bg" style="background-image: url(https://pic1.imgdb.cn/item/67ee2ab30ba3d5a1d7eba24a.jpg);"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="https://img0.baidu.com/it/u=3021601834,497877872&amp;fm=253&amp;fmt=auto&amp;app=120&amp;f=JPEG?w=500&amp;h=500" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">5</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">3</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><span class="site-page group hide"><i class="fa-fw fas fa-list"></i><span> 列表</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url(https://pic1.imgdb.cn/item/67ed35a70ba3d5a1d7eb1b09.jpg);"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">晴天zzz的个人博客</span></a><a class="nav-page-title" href="/"><span class="site-name">双体系后端学习路线</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><span class="site-page group hide"><i class="fa-fw fas fa-list"></i><span> 列表</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="post-info"><h1 class="post-title">双体系后端学习路线</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2025-04-05T01:35:37.175Z" title="发表于 2025-04-05 09:35:37">2025-04-05</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2025-04-05T02:25:58.160Z" title="更新于 2025-04-05 10:25:58">2025-04-05</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E7%AE%97%E6%B3%95/">算法</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">总字数:</span><span class="word-count">867</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>4分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">浏览量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><h1 id="Java后端的学习路线"><a href="#Java后端的学习路线" class="headerlink" title="Java后端的学习路线"></a><strong>Java后端的学习路线</strong></h1><p>注：原创来自于晋中信息学院双体软件精英产业学院，本人二次修改并非原创</p>
+<h2 id="第一部分：java基础"><a href="#第一部分：java基础" class="headerlink" title="第一部分：java基础"></a>第一部分：java基础</h2><ul>
+<li><h3 id="JavaSE"><a href="#JavaSE" class="headerlink" title="JavaSE"></a>JavaSE</h3><p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1Rx411876f/?vd_source=205b9aa791a13bdcc9e04b9d7d1e0544">https://www.bilibili.com/video/BV1Rx411876f/?vd_source=205b9aa791a13bdcc9e04b9d7d1e0544</a></p>
+</li>
+<li><h3 id="MySQL"><a href="#MySQL" class="headerlink" title="MySQL"></a>MySQL</h3></li>
+</ul>
+<p> <a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1Vy4y1z7EX">https://www.bilibili.com/video/BV1Vy4y1z7EX</a></p>
+<ul>
+<li><h3 id="JDBC"><a href="#JDBC" class="headerlink" title="JDBC"></a>JDBC</h3><p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1Bt41137iB">https://www.bilibili.com/video/BV1Bt41137iB</a></p>
+<p>完成后写一个飞机大战大作业</p>
+<h3 id="飞机大战"><a href="#飞机大战" class="headerlink" title="飞机大战"></a>飞机大战</h3><p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1oz4y1a7xU">https://www.bilibili.com/video/BV1oz4y1a7xU</a></p>
+</li>
+</ul>
+<h2 id="第二部分：数据结构"><a href="#第二部分：数据结构" class="headerlink" title="第二部分：数据结构"></a>第二部分：数据结构</h2><ul>
+<li><h3 id="韩顺平版"><a href="#韩顺平版" class="headerlink" title="韩顺平版"></a>韩顺平版</h3></li>
+</ul>
+<p> <a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1E4411H73v">https://www.bilibili.com/video/BV1E4411H73v</a></p>
+<ul>
+<li><h3 id="黑马"><a href="#黑马" class="headerlink" title="黑马"></a>黑马</h3><p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1oz4y1a7xU">https://www.bilibili.com/video/BV1oz4y1a7xU</a></p>
+</li>
+<li><h3 id="左程云版-有点难度不建议初学者，推荐算法比赛的人听"><a href="#左程云版-有点难度不建议初学者，推荐算法比赛的人听" class="headerlink" title="左程云版(有点难度不建议初学者，推荐算法比赛的人听)"></a>左程云版(有点难度不建议初学者，推荐算法比赛的人听)</h3><p>(<a target="_blank" rel="noopener" href="https://space.bilibili.com/8888480">https://space.bilibili.com/8888480</a>)</p>
+</li>
+</ul>
+<hr>
+<h2 id="第三部分：web前端"><a href="#第三部分：web前端" class="headerlink" title="第三部分：web前端"></a>第三部分：web前端</h2><ul>
+<li><h3 id="HTML5-CSS3"><a href="#HTML5-CSS3" class="headerlink" title="HTML5+CSS3"></a>HTML5+CSS3</h3><p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1XJ411X7Ud/">https://www.bilibili.com/video/BV1XJ411X7Ud/</a></p>
+</li>
+<li><h3 id="JavaScript"><a href="#JavaScript" class="headerlink" title="JavaScript"></a>JavaScript</h3></li>
+</ul>
+<p> <a target="_blank" rel="noopener" href="https://www.bilibili.com/video/av62653534/">https://www.bilibili.com/video/av62653534/</a></p>
+<ul>
+<li><h3 id="jquery"><a href="#jquery" class="headerlink" title="jquery"></a><strong>jquery</strong></h3><p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1pt411H7D6/?spm_id_from=333.337.search-card.all.click%EF%BC%88%E9%BB%91%E9%A9%AC%EF%BC%89">https://www.bilibili.com/video/BV1pt411H7D6/?spm_id_from=333.337.search-card.all.click（黑马）</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1ts411E7ag/?spm_id_from=333.337.search-card.all.click&amp;vd_source=621637a62188143a3e1e83d34f9035a2%EF%BC%88%E5%B0%9A%E7%A1%85%E8%B0%B7%EF%BC%89">https://www.bilibili.com/video/BV1ts411E7ag/?spm_id_from=333.337.search-card.all.click&amp;vd_source=621637a62188143a3e1e83d34f9035a2（尚硅谷）</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1Jg4y1B7n4/?spm_id_from=333.337.search-card.all.click%EF%BC%88%E5%8A%A8%E5%8A%9B%E8%8A%82%E7%82%B9%EF%BC%89">https://www.bilibili.com/video/BV1Jg4y1B7n4/?spm_id_from=333.337.search-card.all.click（动力节点）</a></p>
+</li>
+</ul>
+<h2 id="第四部分：框架总结"><a href="#第四部分：框架总结" class="headerlink" title="第四部分：框架总结"></a>第四部分：框架总结</h2><ul>
+<li><h3 id="Maven框架"><a href="#Maven框架" class="headerlink" title="Maven框架"></a><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1dp4y1Q7Hf/?spm_id_from=333.337.search-card.all.click&amp;vd_source=205b9aa791a13bdcc9e04b9d7d1e0544">Maven框架</a></h3></li>
+<li><h3 id="JavaWeb（三选一）"><a href="#JavaWeb（三选一）" class="headerlink" title="JavaWeb（三选一）"></a>JavaWeb（三选一）</h3><p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1Y7411K7zz?spm_id_from=333.337.search-card.all.click%EF%BC%88%E5%B0%9A%E7%A1%85%E8%B0%B7%EF%BC%89">https://www.bilibili.com/video/BV1Y7411K7zz?spm_id_from=333.337.search-card.all.click（尚硅谷）</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1Z3411C7NZ/?spm_id_from=333.337.search-card.all.click&amp;vd_source=621637a62188143a3e1e83d34f9035a2%EF%BC%88%E5%8A%A8%E5%8A%9B%E8%8A%82%E7%82%B9%E8%80%81%E6%9D%9C%E7%9A%84%EF%BC%89">https://www.bilibili.com/video/BV1Z3411C7NZ/?spm_id_from=333.337.search-card.all.click&amp;vd_source=621637a62188143a3e1e83d34f9035a2（动力节点老杜的）</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1Qf4y1T7Hx/?spm_id_from=333.337.search-card.all.click&amp;vd_source=621637a62188143a3e1e83d34f9035a2%EF%BC%88%E9%BB%91%E9%A9%AC%E7%9A%84%EF%BC%89">https://www.bilibili.com/video/BV1Qf4y1T7Hx/?spm_id_from=333.337.search-card.all.click&amp;vd_source=621637a62188143a3e1e83d34f9035a2（黑马的）</a></p>
+</li>
+<li><h3 id="Git"><a href="#Git" class="headerlink" title="Git"></a><a target="_blank" rel="noopener" href="https://suoxiuyuan.github.io/posts/[%E9%BB%91%E9%A9%AC%E7%A8%8B%E5%BA%8F%E5%91%98Git%E5%85%A8%E5%A5%97%E6%95%99%E7%A8%8B%EF%BC%8C%E5%AE%8C%E6%95%B4%E7%9A%84git%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7%E6%95%99%E7%A8%8B%EF%BC%8C%E4%B8%80%E5%A5%97%E7%B2%BE%E9%80%9Agit_%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9_bilibili](https://www.bilibili.com/video/BV1MU4y1Y7h5/?vd_source=205b9aa791a13bdcc9e04b9d7d1e0544)">Git</a></h3></li>
+<li><h3 id="SSM框架整合"><a href="#SSM框架整合" class="headerlink" title="SSM框架整合"></a><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1WZ4y1P7Bp/?spm_id_from=333.337.search-card.all.click">SSM框架整合</a></h3></li>
+<li><h3 id="SSM项目"><a href="#SSM项目" class="headerlink" title="SSM项目"></a><a target="_blank" rel="noopener" href="https://suoxiuyuan.github.io/posts/[%E5%8A%A8%E5%8A%9B%E8%8A%82%E7%82%B9java%E9%A1%B9%E7%9B%AE%E5%AE%9E%E6%88%98|Spring+Mybatis+Springmvc%E6%A1%86%E6%9E%B6SSM%E9%A1%B9%E7%9B%AE%E5%AE%9E%E6%88%98%E6%95%B4%E5%90%88-%E3%80%90CRM%E5%AE%A2%E6%88%B7%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F%E3%80%91_%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9_bilibili](https://www.bilibili.com/video/BV1tZ4y1d7kg/?spm_id_from=333.337.search-card.all.click&amp;vd_source=621637a62188143a3e1e83d34f9035a2)">SSM项目</a></h3></li>
+<li><h3 id="SpringBoot（三选一）"><a href="#SpringBoot（三选一）" class="headerlink" title="SpringBoot（三选一）"></a>SpringBoot（三选一）</h3><p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV19K4y1L7MT/?spm_id_from=333.337.search-card.all.click&amp;vd_source=621637a62188143a3e1e83d34f9035a2">https://www.bilibili.com/video/BV19K4y1L7MT/?spm_id_from=333.337.search-card.all.click&amp;vd_source=621637a62188143a3e1e83d34f9035a2</a> (尚硅谷)</p>
+<p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV15b4y1a7yG/?spm_id_from=333.337.search-card.all.click&amp;vd_source=621637a62188143a3e1e83d34f9035a2%EF%BC%88%E9%BB%91%E9%A9%AC%EF%BC%89">https://www.bilibili.com/video/BV15b4y1a7yG/?spm_id_from=333.337.search-card.all.click&amp;vd_source=621637a62188143a3e1e83d34f9035a2（黑马）</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1XQ4y1m7ex/?spm_id_from=333.337.search-card.all.click&amp;vd_source=621637a62188143a3e1e83d34f9035a2%EF%BC%88%E5%8A%A8%E5%8A%9B%E8%8A%82%E7%82%B9%EF%BC%89">https://www.bilibili.com/video/BV1XQ4y1m7ex/?spm_id_from=333.337.search-card.all.click&amp;vd_source=621637a62188143a3e1e83d34f9035a2（动力节点）</a></p>
+</li>
+<li><h3 id="VUE-二选一"><a href="#VUE-二选一" class="headerlink" title="VUE(二选一)"></a>VUE(二选一)</h3><ul>
+<li><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1Zy4y1K7SH/?spm_id_from=333.337.search-card.all.click%E5%B0%9A%E7%A1%85%E8%B0%B7">https://www.bilibili.com/video/BV1Zy4y1K7SH/?spm_id_from=333.337.search-card.all.click尚硅谷</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV17h41137i4/?spm_id_from=333.337.search-card.all.click&amp;vd_source=205b9aa791a13bdcc9e04b9d7d1e0544%E8%80%81%E6%9D%9C">https://www.bilibili.com/video/BV17h41137i4/?spm_id_from=333.337.search-card.all.click&amp;vd_source=205b9aa791a13bdcc9e04b9d7d1e0544老杜</a></li>
+</ul>
+</li>
+<li><h3 id="SpringBoot项目"><a href="#SpringBoot项目" class="headerlink" title="SpringBoot项目"></a>SpringBoot项目</h3><ul>
+<li><h6 id="苍穹外卖"><a href="#苍穹外卖" class="headerlink" title="苍穹外卖"></a>苍穹外卖</h6><h6 id="https-www-bilibili-com-video-BV1TP411v7v6-vd-source-205b9aa791a13bdcc9e04b9d7d1e0544"><a href="#https-www-bilibili-com-video-BV1TP411v7v6-vd-source-205b9aa791a13bdcc9e04b9d7d1e0544" class="headerlink" title="https://www.bilibili.com/video/BV1TP411v7v6/?vd_source=205b9aa791a13bdcc9e04b9d7d1e0544"></a><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1TP411v7v6/?vd_source=205b9aa791a13bdcc9e04b9d7d1e0544">https://www.bilibili.com/video/BV1TP411v7v6/?vd_source=205b9aa791a13bdcc9e04b9d7d1e0544</a></h6></li>
+</ul>
+</li>
+</ul>
+<h2 id="第五部分：分布式，微服务，并行架构"><a href="#第五部分：分布式，微服务，并行架构" class="headerlink" title="第五部分：分布式，微服务，并行架构"></a>第五部分：分布式，微服务，并行架构</h2><ul>
+<li><h3 id="Linux"><a href="#Linux" class="headerlink" title="Linux"></a><strong>Linux</strong></h3><p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1Sv411r7vd/?spm_id_from=333.337.search-card.all.click%EF%BC%88%E9%9F%A9%E9%A1%BA%E5%B9%B3%E7%9A%84%EF%BC%8C%E8%AE%B2%E7%9A%84%E5%BE%88%E8%AF%A6%E7%BB%86%EF%BC%89">https://www.bilibili.com/video/BV1Sv411r7vd/?spm_id_from=333.337.search-card.all.click（韩顺平的，讲的很详细）</a></p>
+</li>
+<li><h2 id="springcloud"><a href="#springcloud" class="headerlink" title="springcloud"></a><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1LQ4y127n4/?spm_id_from=333.337.search-card.all.click&amp;vd_source=205b9aa791a13bdcc9e04b9d7d1e0544">springcloud</a></h2></li>
+<li><h3 id="Docker"><a href="#Docker" class="headerlink" title="Docker"></a><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1HP4118797/?vd_source=205b9aa791a13bdcc9e04b9d7d1e0544">Docker</a></h3></li>
+<li><h3 id="Dubbo"><a href="#Dubbo" class="headerlink" title="Dubbo"></a><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1VE411q7dX/">Dubbo</a></h3></li>
+<li><h3 id="Zookeeper"><a href="#Zookeeper" class="headerlink" title="Zookeeper"></a><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1M741137qY/?vd_source=205b9aa791a13bdcc9e04b9d7d1e0544">Zookeeper</a></h3></li>
+<li><h3 id="Redis"><a href="#Redis" class="headerlink" title="Redis"></a><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1cr4y1671t/">Redis</a></h3></li>
+<li><h3 id="MongoDB"><a href="#MongoDB" class="headerlink" title="MongoDB"></a><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1bJ411x7mq/">MongoDB</a></h3></li>
+<li><h3 id="RabbitMQ"><a href="#RabbitMQ" class="headerlink" title="RabbitMQ"></a><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1mN4y1Z7t9/">RabbitMQ</a></h3></li>
+<li><h3 id="RocketMQ"><a href="#RocketMQ" class="headerlink" title="RocketMQ"></a><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1L4411y7mn/">RocketMQ</a></h3></li>
+<li><h3 id="KafKa"><a href="#KafKa" class="headerlink" title="KafKa"></a><strong>KafKa</strong></h3><p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1vr4y1677k/?spm_id_from=333.337.search-card.all.click%EF%BC%88%E5%B0%9A%E7%A1%85%E8%B0%B7%EF%BC%89">https://www.bilibili.com/video/BV1vr4y1677k/?spm_id_from=333.337.search-card.all.click（尚硅谷）</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV19y4y1b7Uo/?spm_id_from=333.337.search-card.all.click%EF%BC%88%E9%BB%91%E9%A9%AC%EF%BC%89">https://www.bilibili.com/video/BV19y4y1b7Uo/?spm_id_from=333.337.search-card.all.click（黑马）</a></p>
+</li>
+<li><h3 id="activiti工作流-流程引擎"><a href="#activiti工作流-流程引擎" class="headerlink" title="activiti工作流(流程引擎)"></a>activiti工作流(流程引擎)</h3></li>
+<li><h3 id="搜索引擎"><a href="#搜索引擎" class="headerlink" title="搜索引擎"></a><strong>搜索引擎</strong></h3><ul>
+<li><p><strong>ElasticSeqrch（简称es）</strong></p>
+<p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1nF411F75k/?spm_id_from=333.337.search-card.all.click&amp;vd_source=621637a62188143a3e1e83d34f9035a2">https://www.bilibili.com/video/BV1nF411F75k/?spm_id_from=333.337.search-card.all.click&amp;vd_source=621637a62188143a3e1e83d34f9035a2</a></p>
+</li>
+<li><p><strong>Solr</strong></p>
+<p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1dh411Q7Qu/?spm_id_from=333.337.search-card.all.click%EF%BC%88%E9%BB%91%E9%A9%AC%EF%BC%89">https://www.bilibili.com/video/BV1dh411Q7Qu/?spm_id_from=333.337.search-card.all.click（黑马）</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1gZ4y1a7RH/?spm_id_from=333.337.search-card.all.click&amp;vd_source=621637a62188143a3e1e83d34f9035a2%EF%BC%88%E5%8D%83%E5%B3%B0%EF%BC%89">https://www.bilibili.com/video/BV1gZ4y1a7RH/?spm_id_from=333.337.search-card.all.click&amp;vd_source=621637a62188143a3e1e83d34f9035a2（千峰）</a></p>
+</li>
+</ul>
+</li>
+<li><h3 id="Mycat"><a href="#Mycat" class="headerlink" title="Mycat"></a>Mycat</h3><ul>
+<li><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1iT41157JX/?spm_id_from=333.337.search-card.all.click&amp;vd_source=621637a62188143a3e1e83d34f9035a2%EF%BC%88%E5%B0%9A%E7%A1%85%E8%B0%B7%EF%BC%89">https://www.bilibili.com/video/BV1iT41157JX/?spm_id_from=333.337.search-card.all.click&amp;vd_source=621637a62188143a3e1e83d34f9035a2（尚硅谷）</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1gK4y1b7iU/?spm_id_from=333.337.search-card.all.click&amp;vd_source=6216137a62188143a3e1e83d34f9035a2%EF%BC%88%E5%8A%A8%E5%8A%9B%E8%8A%82%E7%82%B9%EF%BC%89">https://www.bilibili.com/video/BV1gK4y1b7iU/?spm_id_from=333.337.search-card.all.click&amp;vd_source=6216137a62188143a3e1e83d34f9035a2（动力节点）</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV17f4y1D7pm/?spm_id_from=333.337.search-card.all.click&amp;vd_source=621637a62188143a3e1e83d34f9035a2%EF%BC%88%E9%BB%91%E9%A9%AC%EF%BC%89">https://www.bilibili.com/video/BV17f4y1D7pm/?spm_id_from=333.337.search-card.all.click&amp;vd_source=621637a62188143a3e1e83d34f9035a2（黑马）</a></li>
+</ul>
+</li>
+<li><h3 id="日志分析与监控（ELK）"><a href="#日志分析与监控（ELK）" class="headerlink" title="日志分析与监控（ELK）"></a><strong>日志分析与监控（ELK）</strong></h3><ul>
+<li><strong>ElasticSearch（搜集，存储数据）</strong></li>
+<li><strong>LogStatsh（分析日志）</strong></li>
+<li><strong>Kibana（可视化）</strong></li>
+</ul>
+</li>
+<li><h3 id="权限认证"><a href="#权限认证" class="headerlink" title="权限认证"></a>权限认证</h3><ul>
+<li><strong><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1VE411h7aL/?spm_id_from=333.337.search-card.all.click&amp;vd_source=205b9aa791a13bdcc9e04b9d7d1e0544">springsecurity</a></strong></li>
+<li><strong>Shiro</strong></li>
+<li><strong>SaToken</strong></li>
+</ul>
+</li>
+<li><h3 id="支付（支付宝沙箱支付，微信支付等）"><a href="#支付（支付宝沙箱支付，微信支付等）" class="headerlink" title="支付（支付宝沙箱支付，微信支付等）"></a>支付（支付宝沙箱支付，微信支付等）</h3></li>
+</ul>
+<h2 id="第六部分：DevOps-开发运维一体化-自动化部分管理项目，解决CI-CD"><a href="#第六部分：DevOps-开发运维一体化-自动化部分管理项目，解决CI-CD" class="headerlink" title="第六部分：DevOps(开发运维一体化)自动化部分管理项目，解决CI/CD"></a>第六部分：DevOps(开发运维一体化)自动化部分管理项目，解决CI/CD</h2><p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV13Q4y1C7hS/?spm_id_from=333.337.search-card.all.click&amp;vd_source=621637a62188143a3e1e83d34f9035a2%EF%BC%88%E5%B0%9A%E7%A1%85%E8%B0%B7%EF%BC%89">https://www.bilibili.com/video/BV13Q4y1C7hS/?spm_id_from=333.337.search-card.all.click&amp;vd_source=621637a62188143a3e1e83d34f9035a2（尚硅谷）</a></p>
+<ul>
+<li><strong>k8s</strong></li>
+<li><strong>普罗米修斯prometheus</strong></li>
+<li><strong>Jenkins</strong></li>
+<li><strong>Harbor</strong></li>
+<li><strong>GitLab</strong></li>
+<li><strong>项目工程代码质量检测（sonarqube）</strong></li>
+</ul>
+<h2 id="第七部分：大数据技术"><a href="#第七部分：大数据技术" class="headerlink" title="第七部分：大数据技术"></a>第七部分：大数据技术</h2><ul>
+<li><p><strong>Hadoop</strong></p>
+<p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1Qp4y1n7EN/?spm_id_from=333.337.search-card.all.click&amp;vd_source=621637a62188143a3e1e83d34f9035a2">https://www.bilibili.com/video/BV1Qp4y1n7EN/?spm_id_from=333.337.search-card.all.click&amp;vd_source=621637a62188143a3e1e83d34f9035a2</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1CU4y1N7Sh/?spm_id_from=333.337.search-card.all.click&amp;vd_source=621637a62188143a3e1e83d34f9035a2">https://www.bilibili.com/video/BV1CU4y1N7Sh/?spm_id_from=333.337.search-card.all.click&amp;vd_source=621637a62188143a3e1e83d34f9035a2</a></p>
+</li>
+<li><p><strong>Hive</strong></p>
+<p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1EZ4y1G7iL/?spm_id_from=333.337.search-card.all.click">https://www.bilibili.com/video/BV1EZ4y1G7iL/?spm_id_from=333.337.search-card.all.click</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1L5411u7ae/?spm_id_from=333.337.search-card.all.click">https://www.bilibili.com/video/BV1L5411u7ae/?spm_id_from=333.337.search-card.all.click</a></p>
+</li>
+<li><p><strong>Impals</strong></p>
+<p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1GA411E7V9/?spm_id_from=333.337.search-card.all.click&amp;vd_source=621637a62188143a3e1e83d34f9035a2">https://www.bilibili.com/video/BV1GA411E7V9/?spm_id_from=333.337.search-card.all.click&amp;vd_source=621637a62188143a3e1e83d34f9035a2</a></p>
+</li>
+<li><p><strong>spark</strong></p>
+<p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV11A411L7CK/?spm_id_from=333.337.search-card.all.click">https://www.bilibili.com/video/BV11A411L7CK/?spm_id_from=333.337.search-card.all.click</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1Jq4y1z7VP/?spm_id_from=333.337.search-card.all.click&amp;vd_source=621637a62188143a3e1e83d34f9035a2">https://www.bilibili.com/video/BV1Jq4y1z7VP/?spm_id_from=333.337.search-card.all.click&amp;vd_source=621637a62188143a3e1e83d34f9035a2</a></p>
+</li>
+<li><p><strong>flink</strong></p>
+<p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV133411s7Sa/?spm_id_from=333.337.search-card.all.click">https://www.bilibili.com/video/BV133411s7Sa/?spm_id_from=333.337.search-card.all.click</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1Gt4y1z7bR/?spm_id_from=333.337.search-card.all.click&amp;vd_source=621637a62188143a3e1e83d34f9035a2">https://www.bilibili.com/video/BV1Gt4y1z7bR/?spm_id_from=333.337.search-card.all.click&amp;vd_source=621637a62188143a3e1e83d34f9035a2</a></p>
+</li>
+</ul>
+<p><i class="iconfont icon-shutiao"></i></p>
+<p><i class="iconfont icon-bingqilin"></i></p>
+<p><i class="iconfont icon-kele"></i></p>
+<p><i class="iconfont icon-a-fangziwuzijianzhu"></i></p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://qingtian-zzz.github.io">QingTian-zzz</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="https://qingtian-zzz.github.io/2025/04/05/houduan%20-%20%E5%89%AF%E6%9C%AC/">https://qingtian-zzz.github.io/2025/04/05/houduan%20-%20%E5%89%AF%E6%9C%AC/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 <a href="https://qingtian-zzz.github.io" target="_blank">晴天zzz的个人博客</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E5%90%8E%E7%AB%AF/">后端</a><a class="post-meta__tags" href="/tags/%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/">学习路线</a></div><div class="post-share"><div class="social-share" data-image="https://pic1.imgdb.cn/item/67ed35a70ba3d5a1d7eb1b09.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related full-width" href="/2025/04/04/xss/" title="抵御XSS攻击"><img class="cover" src="https://pic1.imgdb.cn/item/67ed35a70ba3d5a1d7eb1b09.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="info"><div class="info-1"><div class="info-item-1">上一篇</div><div class="info-item-2">抵御XSS攻击</div></div><div class="info-2"><div class="info-item-1">抵御XSS攻击 XSS攻击通常指的是通过利用网页开发时留下的漏洞，通过巧妙的方法注入恶意指令代码到网页，使用户加载并执行攻击者恶意制造的网页程序。这些恶意网页程序通常是JavaScript，但实际上也可以包括Java、 VBScript、ActiveX、 Flash...</div></div></div></a></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><a class="pagination-related" href="/2025/03/31/houduan/" title="双体系后端学习路线"><img class="cover" src="https://pic1.imgdb.cn/item/67ed35a70ba3d5a1d7eb1b09.jpg" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2025-03-31</div><div class="info-item-2">双体系后端学习路线</div></div><div class="info-2"><div class="info-item-1">Java后端的学习路线注：原创来自于晋中信息学院双体软件精英产业学院，本人二次修改并非原创 第一部分：java基础 JavaSEhttps://www.bilibili.com/video/BV1Rx411876f/?vd_source=205b9aa791a13bdcc9e04b9d7d1e0544  MySQL   https://www.bilibili.com/video/BV1Vy4y1z7EX  JDBChttps://www.bilibili.com/video/BV1Bt41137iB 完成后写一个飞机大战大作业 飞机大战https://www.bilibili.com/video/BV1oz4y1a7xU   第二部分：数据结构 韩顺平版  ...</div></div></div></a><a class="pagination-related" href="/2025/04/02/qubie/" title="前后端区别"><img class="cover" src="https://pic1.imgdb.cn/item/67ed35a70ba3d5a1d7eb1b09.jpg" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2025-04-02</div><div class="info-item-2">前后端区别</div></div><div class="info-2"><div class="info-item-1">1.前端开发1.1 职责： 负责实现用户界面，包括网页的布局、样式和交互。 与设计师合作，将设计稿转化为可交互的网页。 优化网页性能和用户体验，确保页面加载速度和响应性。  2.后端开发2.1 职责： 负责处理客户端和服务器之间的交互，处理HTTP请求和响应。 实现业务逻辑和数据处理，与数据库交互进行数据的增删改查。 确保系统的安全性和稳定性，预防数据泄露和攻击。  </div></div></div></a><a class="pagination-related" href="/2025/04/04/xss/" title="抵御XSS攻击"><img class="cover" src="https://pic1.imgdb.cn/item/67ed35a70ba3d5a1d7eb1b09.jpg" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2025-04-04</div><div class="info-item-2">抵御XSS攻击</div></div><div class="info-2"><div class="info-item-1">抵御XSS攻击 XSS攻击通常指的是通过利用网页开发时留下的漏洞，通过巧妙的方法注入恶意指令代码到网页，使用户加载并执行攻击者恶意制造的网页程序。这些恶意网页程序通常是JavaScript，但实际上也可以包括Java、 VBScript、ActiveX、 Flash...</div></div></div></a></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="https://img0.baidu.com/it/u=3021601834,497877872&amp;fm=253&amp;fmt=auto&amp;app=120&amp;f=JPEG?w=500&amp;h=500" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">QingTian-zzz</div><div class="author-info-description"></div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">5</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">3</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/fomalhaut1998"><i></i><span>🛴前往小家...</span></a><div class="card-info-social-icons"><a class="social-icon" href="https://github.com/qingtian-zzz" target="_blank" title="Github"><i class="fab fa-github"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content"><center>学累了就玩会吧！</center></br></div><div id="welcome-info"></div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Java%E5%90%8E%E7%AB%AF%E7%9A%84%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF"><span class="toc-number">1.</span> <span class="toc-text">Java后端的学习路线</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E4%B8%80%E9%83%A8%E5%88%86%EF%BC%9Ajava%E5%9F%BA%E7%A1%80"><span class="toc-number">1.1.</span> <span class="toc-text">第一部分：java基础</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#JavaSE"><span class="toc-number">1.1.1.</span> <span class="toc-text">JavaSE</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#MySQL"><span class="toc-number">1.1.2.</span> <span class="toc-text">MySQL</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#JDBC"><span class="toc-number">1.1.3.</span> <span class="toc-text">JDBC</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%A3%9E%E6%9C%BA%E5%A4%A7%E6%88%98"><span class="toc-number">1.1.4.</span> <span class="toc-text">飞机大战</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E4%BA%8C%E9%83%A8%E5%88%86%EF%BC%9A%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84"><span class="toc-number">1.2.</span> <span class="toc-text">第二部分：数据结构</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%9F%A9%E9%A1%BA%E5%B9%B3%E7%89%88"><span class="toc-number">1.2.1.</span> <span class="toc-text">韩顺平版</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%BB%91%E9%A9%AC"><span class="toc-number">1.2.2.</span> <span class="toc-text">黑马</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B7%A6%E7%A8%8B%E4%BA%91%E7%89%88-%E6%9C%89%E7%82%B9%E9%9A%BE%E5%BA%A6%E4%B8%8D%E5%BB%BA%E8%AE%AE%E5%88%9D%E5%AD%A6%E8%80%85%EF%BC%8C%E6%8E%A8%E8%8D%90%E7%AE%97%E6%B3%95%E6%AF%94%E8%B5%9B%E7%9A%84%E4%BA%BA%E5%90%AC"><span class="toc-number">1.2.3.</span> <span class="toc-text">左程云版(有点难度不建议初学者，推荐算法比赛的人听)</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E4%B8%89%E9%83%A8%E5%88%86%EF%BC%9Aweb%E5%89%8D%E7%AB%AF"><span class="toc-number">1.3.</span> <span class="toc-text">第三部分：web前端</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#HTML5-CSS3"><span class="toc-number">1.3.1.</span> <span class="toc-text">HTML5+CSS3</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#JavaScript"><span class="toc-number">1.3.2.</span> <span class="toc-text">JavaScript</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#jquery"><span class="toc-number">1.3.3.</span> <span class="toc-text">jquery</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E5%9B%9B%E9%83%A8%E5%88%86%EF%BC%9A%E6%A1%86%E6%9E%B6%E6%80%BB%E7%BB%93"><span class="toc-number">1.4.</span> <span class="toc-text">第四部分：框架总结</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Maven%E6%A1%86%E6%9E%B6"><span class="toc-number">1.4.1.</span> <span class="toc-text">Maven框架</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#JavaWeb%EF%BC%88%E4%B8%89%E9%80%89%E4%B8%80%EF%BC%89"><span class="toc-number">1.4.2.</span> <span class="toc-text">JavaWeb（三选一）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Git"><span class="toc-number">1.4.3.</span> <span class="toc-text">Git</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#SSM%E6%A1%86%E6%9E%B6%E6%95%B4%E5%90%88"><span class="toc-number">1.4.4.</span> <span class="toc-text">SSM框架整合</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#SSM%E9%A1%B9%E7%9B%AE"><span class="toc-number">1.4.5.</span> <span class="toc-text">SSM项目</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#SpringBoot%EF%BC%88%E4%B8%89%E9%80%89%E4%B8%80%EF%BC%89"><span class="toc-number">1.4.6.</span> <span class="toc-text">SpringBoot（三选一）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#VUE-%E4%BA%8C%E9%80%89%E4%B8%80"><span class="toc-number">1.4.7.</span> <span class="toc-text">VUE(二选一)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#SpringBoot%E9%A1%B9%E7%9B%AE"><span class="toc-number">1.4.8.</span> <span class="toc-text">SpringBoot项目</span></a><ol class="toc-child"><li class="toc-item toc-level-6"><a class="toc-link" href="#%E8%8B%8D%E7%A9%B9%E5%A4%96%E5%8D%96"><span class="toc-number">1.4.8.0.0.1.</span> <span class="toc-text">苍穹外卖</span></a></li><li class="toc-item toc-level-6"><a class="toc-link" href="#https-www-bilibili-com-video-BV1TP411v7v6-vd-source-205b9aa791a13bdcc9e04b9d7d1e0544"><span class="toc-number">1.4.8.0.0.2.</span> <span class="toc-text">https:&#x2F;&#x2F;www.bilibili.com&#x2F;video&#x2F;BV1TP411v7v6&#x2F;?vd_source&#x3D;205b9aa791a13bdcc9e04b9d7d1e0544</span></a></li></ol></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E4%BA%94%E9%83%A8%E5%88%86%EF%BC%9A%E5%88%86%E5%B8%83%E5%BC%8F%EF%BC%8C%E5%BE%AE%E6%9C%8D%E5%8A%A1%EF%BC%8C%E5%B9%B6%E8%A1%8C%E6%9E%B6%E6%9E%84"><span class="toc-number">1.5.</span> <span class="toc-text">第五部分：分布式，微服务，并行架构</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Linux"><span class="toc-number">1.5.1.</span> <span class="toc-text">Linux</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#springcloud"><span class="toc-number">1.6.</span> <span class="toc-text">springcloud</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Docker"><span class="toc-number">1.6.1.</span> <span class="toc-text">Docker</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Dubbo"><span class="toc-number">1.6.2.</span> <span class="toc-text">Dubbo</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Zookeeper"><span class="toc-number">1.6.3.</span> <span class="toc-text">Zookeeper</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Redis"><span class="toc-number">1.6.4.</span> <span class="toc-text">Redis</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#MongoDB"><span class="toc-number">1.6.5.</span> <span class="toc-text">MongoDB</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#RabbitMQ"><span class="toc-number">1.6.6.</span> <span class="toc-text">RabbitMQ</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#RocketMQ"><span class="toc-number">1.6.7.</span> <span class="toc-text">RocketMQ</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#KafKa"><span class="toc-number">1.6.8.</span> <span class="toc-text">KafKa</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#activiti%E5%B7%A5%E4%BD%9C%E6%B5%81-%E6%B5%81%E7%A8%8B%E5%BC%95%E6%93%8E"><span class="toc-number">1.6.9.</span> <span class="toc-text">activiti工作流(流程引擎)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E"><span class="toc-number">1.6.10.</span> <span class="toc-text">搜索引擎</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Mycat"><span class="toc-number">1.6.11.</span> <span class="toc-text">Mycat</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%97%A5%E5%BF%97%E5%88%86%E6%9E%90%E4%B8%8E%E7%9B%91%E6%8E%A7%EF%BC%88ELK%EF%BC%89"><span class="toc-number">1.6.12.</span> <span class="toc-text">日志分析与监控（ELK）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9D%83%E9%99%90%E8%AE%A4%E8%AF%81"><span class="toc-number">1.6.13.</span> <span class="toc-text">权限认证</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%94%AF%E4%BB%98%EF%BC%88%E6%94%AF%E4%BB%98%E5%AE%9D%E6%B2%99%E7%AE%B1%E6%94%AF%E4%BB%98%EF%BC%8C%E5%BE%AE%E4%BF%A1%E6%94%AF%E4%BB%98%E7%AD%89%EF%BC%89"><span class="toc-number">1.6.14.</span> <span class="toc-text">支付（支付宝沙箱支付，微信支付等）</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E5%85%AD%E9%83%A8%E5%88%86%EF%BC%9ADevOps-%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4%E4%B8%80%E4%BD%93%E5%8C%96-%E8%87%AA%E5%8A%A8%E5%8C%96%E9%83%A8%E5%88%86%E7%AE%A1%E7%90%86%E9%A1%B9%E7%9B%AE%EF%BC%8C%E8%A7%A3%E5%86%B3CI-CD"><span class="toc-number">1.7.</span> <span class="toc-text">第六部分：DevOps(开发运维一体化)自动化部分管理项目，解决CI&#x2F;CD</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E4%B8%83%E9%83%A8%E5%88%86%EF%BC%9A%E5%A4%A7%E6%95%B0%E6%8D%AE%E6%8A%80%E6%9C%AF"><span class="toc-number">1.8.</span> <span class="toc-text">第七部分：大数据技术</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2025/04/05/houduan%20-%20%E5%89%AF%E6%9C%AC/" title="双体系后端学习路线"><img src="https://pic1.imgdb.cn/item/67ed35a70ba3d5a1d7eb1b09.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="双体系后端学习路线"/></a><div class="content"><a class="title" href="/2025/04/05/houduan%20-%20%E5%89%AF%E6%9C%AC/" title="双体系后端学习路线">双体系后端学习路线</a><time datetime="2025-04-05T01:35:37.175Z" title="发表于 2025-04-05 09:35:37">2025-04-05</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2025/04/04/xss/" title="抵御XSS攻击"><img src="https://pic1.imgdb.cn/item/67ed35a70ba3d5a1d7eb1b09.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="抵御XSS攻击"/></a><div class="content"><a class="title" href="/2025/04/04/xss/" title="抵御XSS攻击">抵御XSS攻击</a><time datetime="2025-04-04T07:28:26.535Z" title="发表于 2025-04-04 15:28:26">2025-04-04</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2025/04/02/qubie/" title="前后端区别"><img src="https://pic1.imgdb.cn/item/67ed35a70ba3d5a1d7eb1b09.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="前后端区别"/></a><div class="content"><a class="title" href="/2025/04/02/qubie/" title="前后端区别">前后端区别</a><time datetime="2025-04-02T13:28:38.210Z" title="发表于 2025-04-02 21:28:38">2025-04-02</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div id="ft"><div class="ft-item-1"><div class="t-top"><div class="t-t-l"><p class="ft-t t-l-t">格言🧬</p><div class="bg-ad"><div>再看看那个光点，它就在这里，这是家园，这是我们 —— 你所爱的每一个人，你认识的一个人，你听说过的每一个人，曾经有过的每一个人，都在它上面度过他们的一生✨</div></div></div><div class="t-t-r"><p class="ft-t t-l-t">猜你想看💡</p><ul class="ft-links"><li><a href="/personal/about/">关于作者</a><a href="/archives/">文章归档</a></li><li><a href="/categories/">文章分类</a><a href="/tags/">文章标签</a></li></ul></div></div></div></div><div class="copyright"><span><b>&copy;2025</b></span><span><b>&nbsp;&nbsp;By QingTian-zzz</b></span></div><div id="workboard"></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button><button id="go-down" type="button" title="直达底部" onclick="btf.scrollToDest(document.body.scrollHeight, 500)"><i class="fas fa-arrow-down"></i></button></div></div><div class="js-pjax" id="rightMenu"><div class="rightMenu-group rightMenu-small"><a class="rightMenu-item" href="javascript:window.history.back();"><i class="fa fa-arrow-left"></i></a><a class="rightMenu-item" href="javascript:window.history.forward();"><i class="fa fa-arrow-right"></i></a><a class="rightMenu-item" href="javascript:window.location.reload();"><i class="fa fa-refresh"></i></a><a class="rightMenu-item" href="javascript:rmf.scrollToTop();"><i class="fa fa-arrow-up"></i></a></div><div class="rightMenu-group rightMenu-line hide" id="menu-text"><a class="rightMenu-item" href="javascript:rmf.copySelect();"><i class="fa fa-copy"></i><span>复制</span></a><a class="rightMenu-item" href="javascript:window.open(&quot;https://www.baidu.com/s?wd=&quot;+window.getSelection().toString());window.location.reload();"><i class="fa fa-search"></i><span>百度搜索</span></a></div><div class="rightMenu-group rightMenu-line hide" id="menu-too"><a class="rightMenu-item" href="javascript:window.open(window.getSelection().toString());window.location.reload();"><i class="fa fa-link"></i><span>转到链接</span></a></div><div class="rightMenu-group rightMenu-line hide" id="menu-paste"><a class="rightMenu-item" href="javascript:rmf.paste()"><i class="fa fa-copy"></i><span>粘贴</span></a></div><div class="rightMenu-group rightMenu-line hide" id="menu-post"><a class="rightMenu-item" href="#post-comment"><i class="fas fa-comment"></i><span>空降评论</span></a><a class="rightMenu-item" href="javascript:rmf.copyWordsLink()"><i class="fa fa-link"></i><span>复制本文地址</span></a></div><div class="rightMenu-group rightMenu-line hide" id="menu-to"><a class="rightMenu-item" href="javascript:rmf.openWithNewTab()"><i class="fa fa-window-restore"></i><span>新窗口打开</span></a><a class="rightMenu-item" id="menu-too" href="javascript:rmf.open()"><i class="fa fa-link"></i><span>转到链接</span></a><a class="rightMenu-item" href="javascript:rmf.copyLink()"><i class="fa fa-copy"></i><span>复制链接</span></a></div><div class="rightMenu-group rightMenu-line hide" id="menu-img"><a class="rightMenu-item" href="javascript:rmf.saveAs()"><i class="fa fa-download"></i><span>保存图片</span></a><a class="rightMenu-item" href="javascript:rmf.openWithNewTab()"><i class="fa fa-window-restore"></i><span>在新窗口打开</span></a><a class="rightMenu-item" href="javascript:rmf.copyLink()"><i class="fa fa-copy"></i><span>复制图片链接</span></a></div><div class="rightMenu-group rightMenu-line"><a class="rightMenu-item" href="javascript:randomPost()"><i class="fa fa-paper-plane"></i><span>随便逛逛</span></a><a class="rightMenu-item" href="javascript:switchNightMode();"><i class="fa fa-moon"></i><span>昼夜切换</span></a><a class="rightMenu-item" href="javascript:rmf.switchReadMode();"><i class="fa fa-book"></i><span>阅读模式</span></a><a class="rightMenu-item" href="/personal/about/"><i class="fa fa-info-circle"></i><span>关于博客</span></a><a class="rightMenu-item" href="javascript:toggleWinbox();"><i class="fas fa-cog"></i><span>美化设置</span></a><a class="rightMenu-item" href="javascript:rmf.fullScreen();"><i class="fas fa-expand"></i><span>切换全屏</span></a><a class="rightMenu-item" href="javascript:window.print();"><i class="fa-solid fa-print"></i><span>打印页面</span></a></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><div class="js-pjax"></div><script defer src="/js/cursor.js"></script><script async src="//npm.elemecdn.com/pace-js@1.2.4/pace.min.js"></script><script src="https://cdn.staticfile.org/jquery/3.6.3/jquery.min.js"></script><script async data-pjax src="/js/txmap.js"></script><script defer src="/js/runtime.js"></script><script type="text/javascript" src="https://cdn1.tianli0.top/npm/jquery@latest/dist/jquery.min.js"></script><script type="text/javascript" src="/js/rightmenu.js"></script><script async src="/js/title.js"></script><canvas id="universe"></canvas><script defer src="/js/universe.js"></script><script async src="https://npm.elemecdn.com/tzy-blog/lib/js/other/sakura.js"></script><script defer src="https://npm.elemecdn.com/jquery@latest/dist/jquery.min.js"></script><script defer data-pjax src="/js/cat.js"></script><script async src="//at.alicdn.com/t/c/font_4881474_s97wwzxj22a.js"></script><canvas class="fireworks" mobile="false"></canvas><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/fireworks.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = true;
+POWERMODE.mobile = false;
+document.body.addEventListener('input', POWERMODE);
+</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div><!-- hexo injector body_end start --><script data-pjax>
+    function butterfly_categories_card_injector_config(){
+      var parent_div_git = document.getElementById('recent-posts');
+      var item_html = '<style>li.categoryBar-list-item{width:32.3%;}.categoryBar-list{max-height: 190px;overflow:auto;}.categoryBar-list::-webkit-scrollbar{width:0!important}@media screen and (max-width: 650px){.categoryBar-list{max-height: 160px;}}</style><div class="recent-post-item" style="height:auto;width:100%;padding:0px;"><div id="categoryBar"><ul class="categoryBar-list"><li class="categoryBar-list-item" style="background:url(https://pic1.imgdb.cn/item/67ed36f30ba3d5a1d7eb1b7c.jpg);"> <a class="categoryBar-list-link" href="categories/算法/">算法</a><span class="categoryBar-list-count">1</span><span class="categoryBar-list-descr">后端</span></li><li class="categoryBar-list-item" style="background:url(https://pic1.imgdb.cn/item/67f094010ba3d5a1d7ed884c.jpg);"> <a class="categoryBar-list-link" href="categories/后端/">后端</a><span class="categoryBar-list-count">3</span><span class="categoryBar-list-descr">前端</span></li><li class="categoryBar-list-item" style="background:url(https://pic1.imgdb.cn/item/67f093f10ba3d5a1d7ed8840.jpg);"> <a class="categoryBar-list-link" href="categories/前端/">前端</a><span class="categoryBar-list-count">1</span><span class="categoryBar-list-descr">比赛</span></li></ul></div></div>';
+      console.log('已挂载butterfly_categories_card')
+      parent_div_git.insertAdjacentHTML("afterbegin",item_html)
+      }
+    if( document.getElementById('recent-posts') && (location.pathname ==='/'|| '/' ==='all')){
+    butterfly_categories_card_injector_config()
+    }
+  </script><!-- hexo injector body_end end --></body></html>

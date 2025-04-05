@@ -1,3 +1,14 @@
+@import "//at.alicdn.com/t/c/font_4881474_s97wwzxj22a.css";
+
+.iconfont {
+    font-family: "iconfont" !important;
+    /* 这里可以自定义图标大小 */
+    font-size: 3em;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
 /* 侧边栏个人信息卡片动态渐变色 */
 #aside-content > .card-widget.card-info {
     background: linear-gradient(
@@ -84,7 +95,7 @@
   [data-theme="dark"] #page-header::before {
     background: transparent !important;
   }
-
+/* 2.页面美化 */
   :root {
     --trans-light: rgba(255, 255, 255, 0.88);
     --trans-dark: rgba(25, 25, 25, 0.88);
@@ -170,7 +181,7 @@
     width: 16px;
     height: 16px;
     /* 这里改变跟随的底色 */
-    background: var(--theme-color);
+    background: #4074A2;
     border-radius: 8px;
     opacity: 0.25;
     z-index: 10086;
@@ -296,7 +307,7 @@
   /* 链接悬浮颜色 */
   .ft-links li a:hover {
     text-decoration: none !important;
-    color: var(--theme-color) !important;
+    color: #4074A2 !important;
   }
   
   .ft-item-2 .ft-img-group {
@@ -334,7 +345,7 @@
   }
   /* 头像悬浮颜色框 */
   .ft-item-2 .ft-img-group .img-group-item a img:hover {
-    border: 2px solid var(--theme-color);
+    border: 2px solid #4074A2;
   }
   
   @media screen and (max-width: 768px) {
@@ -626,4 +637,31 @@
   }
   .rightMenu-group.hide {
     display: none;
+  }
+
+/* 一级菜单居中 */
+#nav .menus_items {
+    position: absolute !important;
+    width: fit-content !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+  }
+  /* 子菜单横向展示 */
+  #nav .menus_items .menus_item:hover .menus_item_child {
+    display: flex !important;
+  }
+  /* 这里的2是代表导航栏的第2个元素，即有子菜单的元素，可以按自己需求修改 */
+  .menus_items .menus_item:nth-child(2) .menus_item_child {
+    left: -125px;
+  }
+/* 小冰分类分类磁铁黑夜模式适配 */
+/* 一般状态 */
+[data-theme="dark"] .magnet_link_context {
+    background: #1e1e1e;
+    color: antiquewhite;
+  }
+  /* 鼠标悬浮状态 */
+  [data-theme="dark"] .magnet_link_context:hover {
+    background: #3ecdf1;
+    color: #f2f2f2;
   }
