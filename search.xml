@@ -29,25 +29,6 @@
     
     
     <entry>
-      <title>字符串常用方法</title>
-      <link href="/2025/04/08/zifuchuan/"/>
-      <url>/2025/04/08/zifuchuan/</url>
-      
-        <content type="html"><![CDATA[<ul><li>charAt(index)：获取字符串索引为index的字符</li><li>substring(index1, index2)：从索引index1(包含)到索引index2(不包含)截取字符串indexOf(s)：获取字符s的索引</li></ul><p><code>https://blog.csdn.net/weixin_40052298/article/details/121868965?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522169555251216800182147809%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&amp;request_id=169555251216800182147809&amp;biz_id=0&amp;utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_click~default-2-121868965-null-null.142^v94^insert_down1&amp;utm_term=java%20substring%E6%96%B9%E6%B3%95&amp;spm=1018.2226.3001.4187</code></p><ul><li>contains(s)：字符串是否包含字符s</li><li>split(char)：按字符char对字符串进行切分</li></ul><p><code>https://blog.csdn.net/qq_26893841/article/details/127919230?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522169555212616800188571527%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&amp;request_id=169555212616800188571527&amp;biz_id=0&amp;utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-2-127919230-null-null.142^v94^insert_down1&amp;utm_term=javasplit&amp;spm=1018.2226.3001.4187</code></p><ul><li>trim()：去除字符串两端的空白字符</li><li>Arrays.toString(sz)：将字符数组sz转成字符串</li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> 算法 </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>抵御XSS攻击</title>
       <link href="/2025/04/08/xss/"/>
       <url>/2025/04/08/xss/</url>
@@ -69,6 +50,25 @@
             <tag> 学习路线 </tag>
             
         </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>字符串常用方法</title>
+      <link href="/2025/04/08/zifuchuan/"/>
+      <url>/2025/04/08/zifuchuan/</url>
+      
+        <content type="html"><![CDATA[<ul><li>charAt(index)：获取字符串索引为index的字符</li><li>substring(index1, index2)：从索引index1(包含)到索引index2(不包含)截取字符串indexOf(s)：获取字符s的索引</li></ul><p><code>https://blog.csdn.net/weixin_40052298/article/details/121868965?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522169555251216800182147809%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&amp;request_id=169555251216800182147809&amp;biz_id=0&amp;utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_click~default-2-121868965-null-null.142^v94^insert_down1&amp;utm_term=java%20substring%E6%96%B9%E6%B3%95&amp;spm=1018.2226.3001.4187</code></p><ul><li>contains(s)：字符串是否包含字符s</li><li>split(char)：按字符char对字符串进行切分</li></ul><p><code>https://blog.csdn.net/qq_26893841/article/details/127919230?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522169555212616800188571527%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&amp;request_id=169555212616800188571527&amp;biz_id=0&amp;utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-2-127919230-null-null.142^v94^insert_down1&amp;utm_term=javasplit&amp;spm=1018.2226.3001.4187</code></p><ul><li>trim()：去除字符串两端的空白字符</li><li>Arrays.toString(sz)：将字符数组sz转成字符串</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 算法 </category>
+          
+      </categories>
+      
       
     </entry>
     
