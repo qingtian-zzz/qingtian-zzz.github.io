@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>计数排序（非比较排序）</title>
+      <link href="/2025/04/10/CountSort/"/>
+      <url>/2025/04/10/CountSort/</url>
+      
+        <content type="html"><![CDATA[<h1 id="算法过程（思路）："><a href="#算法过程（思路）：" class="headerlink" title="算法过程（思路）："></a>算法过程（思路）：</h1><p>输入：待排序记录序列A[n],记录的的取值区间k——&gt;k就是整个数组里的最大数。并且数组里的数值取值区间就是[0,k]</p><p>输出：排序数组B[n]</p><p>1.统计值为 i (1&lt;=i&lt;=k) 的记录个数存入num[I]——&gt;即统计每个数字出现的次数，并写入num[i]</p><p>2.统计小于等于i的记录个数存入num[i]——&gt;即求前缀和。</p><p>3.反向填充目标数组，将A[i]放在B[–num[A[i]]]中——&gt;即反向读取原数组并在num[i]中找到对应的数填到B[i]的指定位置</p><p>4.输出数组B[n]</p><h1 id="例子："><a href="#例子：" class="headerlink" title="例子："></a>例子：</h1><p>输入：A[n] = {2,1,5,2,4,3,0,5,3,2},k=5</p><p>1.统计次数</p><table><thead><tr><th align="center">i</th><th>0</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th></tr></thead><tbody><tr><td align="center">num[i]</td><td>1</td><td>1</td><td>3</td><td>2</td><td>1</td><td>2</td></tr></tbody></table><p>2.求前缀和</p><table><thead><tr><th>i</th><th>0</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th></tr></thead><tbody><tr><td>num[i]</td><td>1</td><td>2(1+1)</td><td>5(1+1+3)</td><td>7(1+1+3+2)</td><td>8(1+1+3+2+1)</td><td>10(1+1+3+2+1+2)</td></tr></tbody></table><p>3.反向填充（从A[n]中到着读取数，然后找到数在num[i]里的值，并填入B[n]的指定位置）</p><p>注意：B[n]数组的长度就是A[n]数组的长度即n</p><table><thead><tr><th>i</th><th>0</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th><th>8</th><th>9</th></tr></thead><tbody><tr><td>B[n]</td><td>0</td><td>1</td><td>2</td><td>2</td><td>2</td><td>3</td><td>3</td><td>4</td><td>5</td><td>5</td></tr></tbody></table>]]></content>
+      
+      
+      <categories>
+          
+          <category> 算法 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>JDBC</title>
       <link href="/2025/04/08/studynote1/"/>
       <url>/2025/04/08/studynote1/</url>
